@@ -8,7 +8,7 @@ const Hero = () => {
       {/* 1. INDEPENDENT BACKGROUND LAYER */}
       <div 
         className="absolute inset-0 bg-cover bg-center z-0 pointer-events-none"
-        style={{ backgroundImage: "url('https://i.postimg.cc/x1gWdhV0/Gemini-Generated-Image-f32q11f32q11f32q.jpg')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=2000&q=80')" }}
       />
 
       {/* 2. DARK OVERLAY (Ensures text stays clearly readable) */}
@@ -29,7 +29,7 @@ const Hero = () => {
           </span>
         </motion.div>
 
-        {/* Main headline - Removed max-width constraint to let it breathe */}
+        {/* Main headline */}
         <motion.h1 
           initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}
           className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-medium tracking-[-0.02em] leading-[0.95] text-white"
@@ -37,7 +37,7 @@ const Hero = () => {
           Your Vision, Our Sound.
         </motion.h1>
 
-        {/* Sub-headline - Centered and constrained for readability */}
+        {/* Sub-headline */}
         <motion.p 
           initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
           className="mt-12 max-w-2xl text-lg md:text-xl leading-[1.8] text-zinc-300 font-light"
