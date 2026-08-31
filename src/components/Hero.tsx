@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex flex-col justify-center pt-24 pb-16 font-sans px-8 md:px-16 overflow-hidden">
       
-      {/* 1. INDEPENDENT BACKGROUND LAYER */}
+      {/* 1. INDEPENDENT BACKGROUND LAYER WITH YOUR IMAGE */}
       <div 
         className="absolute inset-0 bg-cover bg-center z-0 pointer-events-none"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=2000&q=80')" }}
+        style={{ backgroundImage: "url('https://i.postimg.cc/x1gWdhV0/Gemini-Generated-Image-f32q11f32q11f32q.jpg')" }}
       />
 
       {/* 2. DARK OVERLAY (Ensures text stays clearly readable) */}
